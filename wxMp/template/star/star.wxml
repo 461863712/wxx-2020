@@ -1,0 +1,30 @@
+<template name="starTemplate">
+  <view class="stars-container">
+    <view class="stars" data-star="{{item.star}}" wx:if="{{item.star === 1}}">
+      <image src="/images/xx.png"></image>
+    </view>
+    <view class="stars" data-star="{{item.star}}" wx:if="{{item.star === 2}}">
+      <image src="/images/xx.png"></image>
+      <image src="/images/xx.png"></image>
+    </view>
+    <view class="stars" data-star="{{item.star}}" wx:if="{{item.star === 3}}">
+      <image src="/images/xx.png"></image>
+      <image src="/images/xx.png"></image>
+      <image src="/images/xx.png"></image>
+    </view>
+    <view class="stars" data-star="{{item.star}}" wx:if="{{item.star === 4}}">
+      <image src="/images/xx.png"></image>
+      <image src="/images/xx.png"></image>
+      <image src="/images/xx.png"></image>
+      <image src="/images/xx.png"></image>
+    </view>
+    <view class="stars" data-star="{{item.star}}" wx:if="{{item.star === 5}}">
+      <image src="/images/xx.png"></image>
+      <image src="/images/xx.png"></image>
+      <image src="/images/xx.png"></image>
+      <image src="/images/xx.png"></image>
+      <image src="/images/xx.png"></image>
+    </view>
+    <text class="star-score">{{item.rating_average}}</text>
+  </view>
+</template>

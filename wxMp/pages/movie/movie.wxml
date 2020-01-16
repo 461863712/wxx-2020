@@ -1,0 +1,5 @@
+<!--pages/movie/movie.wxml-->
+<import src='../../template/movie-list/movie-list.wxml' />
+<view wx:for="{{dyList}}" wx:key="dy">
+  <template is="movieListTemplate" data="{{item}}"/>
+</view>

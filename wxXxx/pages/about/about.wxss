@@ -1,0 +1,6 @@
+.default{
+  color:green;
+}
+.hover{
+  color: red;
+}

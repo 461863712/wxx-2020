@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="audio">
+    <audio src="https://win-web-rg01-sycdn.kuwo.cn/40d215fbc1cce867344a8f1a8bbb4ae1/5e0efd6b/resource/n2/37/30/3252857194.mp3" controls="true" author="杨宗纬" name="一次就好" poster="http://img2.kuwo.cn/star/albumcover/300/42/13/2361281804.jpg"></audio>
+  </view>
+  <view class="user">
+    <button bindgetuserinfo="headerGetuserinfo" open-type="getUserInfo" wx:if="{{user}}">获取用户登录信息</button>
+    <image src="{{userinfo.avatarUrl}}"></image>
+    <text>{{userinfo.nickName}}</text>
+  </view>
+  <view class="canvas-area">
+    <canvas canvas-id="myCanvas" class="myCanvas" disable-scroll="false" bindtouchstart="touchStart" bindtouchmove="touchMove"></canvas>
+  </view>
+  <view class="canvas-tools">
+    <view class="box box1" data-param="5" bindtap="panSelect">
+      <image src="../../images/hb1.png"></image>
+    </view>
+    <view class="box box2" data-param="15" bindtap="panSelect">
+      <image src="../../images/hb2.png"></image>
+    </view>
+    <view class="box box3" data-param="#cc0033" bindtap="panColor"></view>
+    <view class="box box4" data-param="#ff9900" bindtap="panColor"></view>
+    <view class="box box5" data-param="#f8f8f8" bindtap="panColor">
+      <image src="../../images/xpc.png"></image>
+    </view>
+  </view>
+</view>

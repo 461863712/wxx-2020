@@ -1,0 +1,7 @@
+<!--pages/movie/movie-more/movie-more.wxml-->
+<import src='../../../template/movie/movie.wxml' />
+<view class="container">
+  <view wx:for="{{data.list}}" wx:key="gdL">
+    <template is="movieTemplate" data="{{item}}"/>
+  </view>
+</view>

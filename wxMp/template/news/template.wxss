@@ -1,0 +1,64 @@
+/*文章样式*/
+.articlelist{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+  background-color: #fff;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  padding: 20rpx;
+  padding-bottom: 10rpx;
+}
+.author-time{
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+}
+.authorIcon{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+.author-name{
+  margin-left: 20rpx;
+}
+.author-date{
+  margin-left: 20rpx;
+  vertical-align: middle;
+  margin-bottom: 5px;
+  font-size: 26rpx;
+}
+.title{
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.articleImg{
+  width: 100%;
+  margin: auto 0;
+  height: 340rpx;
+  margin-bottom: 30rpx;
+}
+.articleText{
+  color: #666;
+  font-size: 26rpx;
+  margin-bottom: 20rpx;
+  letter-spacing: 2rpx;/*字间距*/
+  line-height: 40rpx;
+}
+.article-like{
+  font-size: 26rpx;
+  flex-direction: row;
+  line-height: 32rpx;
+}
+.article-like image{
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 16rpx;
+  vertical-align: middle;
+}
+.article-like text{
+  margin-right: 40rpx;
+  vertical-align: middle;
+}

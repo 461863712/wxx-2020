@@ -1,0 +1,8 @@
+<!--pages/movie/move-detail/move-detail.wxml-->
+<view class="container">
+  <image class="detail-img" src="{{movie.imagePath}}"></image>
+  <text>{{movie.title}}</text>
+  <text>评分：{{movie.rating_average}}</text>
+  <text class="summary">内容评价：{{movie.summary}}</text>
+</view>
+

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view>  
+<!-- 扫描二维码 -->
+  <camera mode="scanCode" device-position="back" binderror="error" style="width: 100%; height: 300px;" bindscancode="takeCode" ></camera>
+  <button bindtap="aaa">从相册选择</button>
+  <!-- 长按 需要真机调试才能看到 -->
+  <image src="https://img.fetow.com/Public/Index/images/shewm.jpg" mode="widthFix"  
+	data-src="https://img.fetow.com/Public/Index/images/shewm.jpg" 
+	bindtap="previewImage"></image>
+</view>

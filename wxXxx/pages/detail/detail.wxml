@@ -1,0 +1,8 @@
+<view class="detail">
+  <image src="{{movie.imagePath}}"></image>
+  <text style="font-weight:blod;font-size:50rpx;">{{movie.title}}</text>
+  <text>想看：{{movie.wish_count}}</text>
+  <text>看过：{{movie.collect_count}}</text>
+  <text>评分：{{movie.rating_average}}</text>
+  <text>简介：{{movie.summary}}</text>
+</view>

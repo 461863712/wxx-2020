@@ -1,0 +1,8 @@
+<import src='../star/star.wxml' />
+<template name="movieTemplate">
+  <view class="movie-container" data-id="{{item.id}}" bindtap="goMovieDetail">
+    <image class="movie-img" src="{{item.imagePath}}"></image>
+    <text class="movie-title">{{item.title}}</text>
+    <template is="starTemplate" data="{{item}}"></template>
+  </view>
+</template>

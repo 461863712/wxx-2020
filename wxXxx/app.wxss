@@ -1,0 +1,14 @@
+.container{
+  background: #eee;
+  height:100vh;/*高度100%*/
+
+  display: flex;
+  flex-direction: column;/*方向*/
+  justify-content: space-around;/*均匀分配*/
+  align-items: center;/*容器水平居中*/
+}
+.about-banner{
+  width: 375rpx;
+  height: 375rpx;
+  border-radius: 50%;
+}

@@ -1,0 +1,29 @@
+.movie{
+  display: flex;
+  margin: 5px;
+}
+.movie-details{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 550rpx;
+}
+.movie-image{
+  width: 250rpx;
+  height: 200rpx;
+}
+.return-button1{
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 1px solid blue;
+  border-radius: 10%;
+  background: rgb(70, 70, 235);
+  color: white;
+}
+.return-button2{
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
+}

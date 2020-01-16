@@ -1,0 +1,20 @@
+<view class="container">
+  <image class="head-img" src="{{newsData.articleImg}}"></image>
+  <view class="author-time">
+    <image class="author-avatar" src="/images/header1.png"></image>
+    <text class="author-name">{{newsData.authorName}}</text>
+    <text class="const-text">发表于:</text>
+    <text class="time">{{newsData.authorDate}}</text>
+    <image class="author-audio" bindtap="playMusic" src="{{music? '/images/eartag1.png' : '/images/eartag.png'}}"></image>
+  </view>
+  <text class="title">{{newsData.title}}</text>
+  <view class="tool">
+    <view class="circle-img">
+      <image wx:if="{{collected}}" bindtap="collectTap" src="/images/sc.png"></image>
+      <image wx:else bindtap="collectTap" src="/images/sc1.png">收藏</image>
+      <image bindtap="onShowTap" src="/images/fx.png"></image>
+    </view>
+    <view class="horizon">{{newsData.articleText}}</view>
+  </view>
+  <text class="detail">我是哈哈</text>
+</view>

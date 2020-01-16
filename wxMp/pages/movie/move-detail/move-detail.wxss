@@ -1,0 +1,15 @@
+/* pages/movie/move-detail/move-detail.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.detail-img{
+  width: 100%;
+}
+.container text{
+  margin-bottom: 10rpx;
+}
+.summary{
+  text-align: left;
+}

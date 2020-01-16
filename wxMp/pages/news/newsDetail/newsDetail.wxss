@@ -1,0 +1,50 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.head-img{
+  width: 100%;
+  margin: auto 0;
+  height: 400rpx;
+  margin-bottom: 30rpx;
+}
+.author-time .author-avatar{
+  width: 120rpx;
+  height: 120rpx;
+  vertical-align: middle;
+}
+.author-time text{
+  margin-left: 3rpx;
+}
+.author-audio{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+  margin-left: 30rpx;
+}
+.title{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin: 10rpx 20rpx;
+}
+.tool{
+  padding: 10rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.circle-img{
+  display: flex;
+  position: absolute;
+  right: 20rpx;
+}
+.circle-img image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.horizon{
+  margin-top: 80rpx;
+  font-size:24rpx;
+}
+.detail{
+  padding: 10rpx 20rpx;
+}
